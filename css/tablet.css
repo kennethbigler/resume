@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav{
+	height:6em;
+}
+div.banner{
+	width:100%;
+}
+#content, #content1, #content2, #content3, #content4{
+	top:6em;
+}

@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+h1{
+	text-align:center;
+}
+input{
+	cursor:pointer;
+	cursor:hand;
+}
+label{
+	cursor:pointer;
+	cursor:hand;
+}
+button{
+	cursor:pointer;
+	cursor:hand;
+}
+dt{
+	padding-top:1em;
+}
+header{
+	background-image:url(../images/banner-red.png);
+	background-repeat:repeat-x;
+	color:white;
+	text-align:center;
+	height:5em;
+	position:absolute;
+	top:0em;
+	left:.75em;
+	right:.75em;
+	min-width:16.9375em;
+	-moz-box-shadow: 1px 5px 10px #888;
+	-webkit-box-shadow: 1px 5px 10px #888;
+	box-shadow: 1px 5px 10px #888;
+}
+div.scrollable{
+	overflow:auto;
+}
+aside{
+	background-color:#c8c9c7; 
+	width:7em;
+	float:left;
+	height:100%;
+}
+div.main{
+	position:absolute;
+	left:.75em;
+	right:.75em;
+	top:5em;
+	bottom:2.75em;
+	min-width:16.9375em;
+	-moz-box-shadow: 1px 5px 10px #888;
+	-webkit-box-shadow: 1px 5px 10px #888;
+	box-shadow: 1px 5px 10px #888;
+}
+nav{
+	background-color:white;
+	height:3em;
+	position:absolute;
+	top:0em;
+	left:7em;
+	right:0em;
+	overflow:visible;
+}
+div.navpill{
+	cursor:pointer;
+	cursor:hand;
+	float:left;
+	max-width:7em;
+	background-color:#DA3;
+	text-align:center;
+	color:white;
+	line-height:2em;
+	height:2em;
+	padding-left:.625em;
+	padding-right:.625em;
+	margin:.3125em;
+	margin-bottom:.625em;
+	overflow:visible;
+	border-radius:.3125em;
+	-moz-box-shadow: 1px 5px 10px #888;
+	-webkit-box-shadow: 1px 5px 10px #888;
+	box-shadow: 1px 5px 10px #888;
+}
+div.navpill:hover{
+	background-color:#711;
+}
+div.current{
+	background-color:black;
+}
+figure.banner{
+	margin-top:0;
+}
+div.border{
+	font-family:verdana;
+	padding:1em;
+	border-radius:.625em;
+	border:.825em solid red;
+}
+footer{
+	background-color:#711;
+	position:absolute;
+	right:.75em;
+	left:.75em;
+	bottom:.75em;
+	height:2em;
+	text-align:center;
+	min-width:16.9375em;
+	-moz-box-shadow: 1px 5px 10px #888;
+	-webkit-box-shadow: 1px 5px 10px #888;
+	box-shadow: 1px 5px 10px #888;
+}
+footer a, footer p{
+	color:white;
+	text-decoration:none;
+	margin:0em;
+	line-height:2em;
+}
+div.content{
+	position:absolute;
+	right:0em;
+	left:7em;
+	top:3em;
+	bottom:0em;
+	padding:.625em;
+	background-color:white;
+}
+p.light{
+	color:#c7c7c7;
+}
+.unbold{
+	font-weight:normal;
+}
+img.site{
+	width:100%;
+	display:block;
+	margin:auto;
+	cursor:pointer;
+	cursor:hand;
+	margin-bottom:10px;
+	-moz-box-shadow: 1px 5px 10px #888;
+	-webkit-box-shadow: 1px 5px 10px #888;
+	box-shadow: 1px 5px 10px #888;
+}
+#kidzkamp{
+	max-width:535px;
+}
+#aboutme{
+	max-width:308px;
+}
+#mapquiz{
+	max-width:458px;
+}
+div.content::-webkit-scrollbar{
+	display:none;
+}
+#main_photo{
+	width:100%;
+	max-width:541px;
+	display:block;
+	margin:auto;
+}
+img.corp_logo{
+	float:right;
+	max-width:150px;
+}
+figcaption{
+	text-align: center;
+	color:#999;
+	font-style:italic;
+}
+.fall{
+	color:#F90;
+}
+.winter{
+	color:#3CF;
+}
+.spring{
+	color:#0F0;
+	font-weight:bold;
+}
