@@ -21,31 +21,32 @@ button{
 	cursor:hand;
 }
 dt{
-	padding-top:1em;
+	margin-top:1em;
 }
 header{
-	background-image:url(../images/banner-red.png);
-	background-repeat:repeat-x;
-	color:white;
-	text-align:center;
-	height:5em;
-	position:absolute;
-	top:0em;
-	left:.75em;
-	right:.75em;
-	min-width:16.9375em;
-	-moz-box-shadow: 1px 5px 10px #888;
-	-webkit-box-shadow: 1px 5px 10px #888;
-	box-shadow: 1px 5px 10px #888;
+	/*background-image:url(../images/banner-red.png);
+	background-repeat:repeat-x;*/
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 5em;
+	position: absolute;
+	top: 0em;
+	left: .75em;
+	right: .75em;
+	min-width: 16.9375em;
+	-moz-box-shadow: .0625em .3125em .625em #888;
+	-webkit-box-shadow: .0625em .3125em .625em #888;
+	box-shadow: .0625em .3125em .625em #888;
 }
 div.scrollable{
 	overflow:auto;
 }
 aside{
-	background-color:#c8c9c7; 
-	width:7em;
-	float:left;
-	height:100%;
+	background-color: #9bd; 
+	width: 7em;
+	float: left;
+	height: 100%;
 }
 div.main{
 	position:absolute;
@@ -54,9 +55,9 @@ div.main{
 	top:5em;
 	bottom:2.75em;
 	min-width:16.9375em;
-	-moz-box-shadow: 1px 5px 10px #888;
-	-webkit-box-shadow: 1px 5px 10px #888;
-	box-shadow: 1px 5px 10px #888;
+	-moz-box-shadow: .0625em .3125em .625em #888;
+	-webkit-box-shadow: .0625em .3125em .625em #888;
+	box-shadow: .0625em .3125em .625em #888;
 }
 nav{
 	background-color:white;
@@ -68,30 +69,30 @@ nav{
 	overflow:visible;
 }
 div.navpill{
-	cursor:pointer;
-	cursor:hand;
-	float:left;
-	max-width:7em;
-	background-color:#DA3;
-	text-align:center;
-	color:white;
-	line-height:2em;
-	height:2em;
-	padding-left:.625em;
-	padding-right:.625em;
-	margin:.3125em;
-	margin-bottom:.625em;
-	overflow:visible;
-	border-radius:.3125em;
-	-moz-box-shadow: 1px 5px 10px #888;
-	-webkit-box-shadow: 1px 5px 10px #888;
-	box-shadow: 1px 5px 10px #888;
+	cursor: pointer;
+	cursor: hand;
+	float: left;
+	max-width: 7em;
+	background-color: #346;
+	text-align: center;
+	color: white;
+	line-height: 2em;
+	height: 2em;
+	padding-left: .625em;
+	padding-right: .625em;
+	margin: .3125em;
+	margin-bottom: .625em;
+	overflow: visible;
+	border-radius: .4375em;
+	-moz-box-shadow: .0625em .3125em .625em #888;
+	-webkit-box-shadow: .0625em .3125em .625em #888;
+	box-shadow: .0625em .3125em .625em #888;
 }
 div.navpill:hover{
-	background-color:#711;
+	background-color: black;
 }
 div.current{
-	background-color:black;
+	background-color: #f60;
 }
 figure.banner{
 	margin-top:0;
@@ -103,17 +104,17 @@ div.border{
 	border:.825em solid red;
 }
 footer{
-	background-color:#711;
-	position:absolute;
-	right:.75em;
-	left:.75em;
-	bottom:.75em;
-	height:2em;
-	text-align:center;
-	min-width:16.9375em;
-	-moz-box-shadow: 1px 5px 10px #888;
-	-webkit-box-shadow: 1px 5px 10px #888;
-	box-shadow: 1px 5px 10px #888;
+	background-color: black;
+	position: absolute;
+	right: .75em;
+	left: .75em;
+	bottom: .75em;
+	height: 2em;
+	text-align: center;
+	min-width: 16.9375em;
+	-moz-box-shadow: .0625em .3125em .625em #888;
+	-webkit-box-shadow: .0625em .3125em .625em #888;
+	box-shadow: .0625em .3125em .625em #888;
 }
 footer a, footer p{
 	color:white;
@@ -122,13 +123,13 @@ footer a, footer p{
 	line-height:2em;
 }
 div.content{
-	position:absolute;
-	right:0em;
-	left:7em;
-	top:3em;
-	bottom:0em;
-	padding:.625em;
-	background-color:white;
+	position: absolute;
+	right: 0em;
+	left: 7em;
+	top: 3em;
+	bottom: 0em;
+	padding: .625em;
+	background-color: white;
 }
 p.light{
 	color:#c7c7c7;
@@ -143,9 +144,9 @@ img.site{
 	cursor:pointer;
 	cursor:hand;
 	margin-bottom:10px;
-	-moz-box-shadow: 1px 5px 10px #888;
-	-webkit-box-shadow: 1px 5px 10px #888;
-	box-shadow: 1px 5px 10px #888;
+	-moz-box-shadow: .0625em .3125em .625em #888;
+	-webkit-box-shadow: .0625em .3125em .625em #888;
+	box-shadow: .0625em .3125em .625em #888;
 }
 #kidzkamp{
 	max-width:535px;
@@ -183,4 +184,13 @@ figcaption{
 .spring{
 	color:#0F0;
 	font-weight:bold;
+}
+div.highlight {
+	background-color: #DEF;
+	padding: .625em;
+	border-radius: .625em;
+	margin: 1em;
+	-moz-box-shadow: .0625em .3125em .625em #888;
+	-webkit-box-shadow: .0625em .3125em .625em #888;
+	box-shadow: .0625em .3125em .625em #888;
 }
