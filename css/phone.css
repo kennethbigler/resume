@@ -1,40 +1,48 @@
 @charset "utf-8";
 /* CSS Document */
 
-header{
-	top:0em;
-	left:0em;
-	right:0em;
+header {
+	top: 0em;
+	left: 0em;
+	right: 0em;
 }
-h1{
-	margin-top:0;
+
+h1 {
+	margin-top: 0;
 }
-div.main{
-	left:0em;
-	right:0em;
-	bottom:1em;
-	top:5em;
+
+div.main {
+	left: 0em;
+	right: 0em;
+	bottom: 1em;
+	top: 5em;
 }
-aside{
-	display:none;
+
+aside {
+	display: none;
 }
-nav{
-	left:0em;
-	height:6em;
+
+nav {
+	left: 0em;
+	height: 6em;
 }
-div.banner{
-	width:100%;
+
+div.banner {
+	width: 100%;
 }
-footer{
-	right:0em;
-	left:0em;
-	bottom:0em;
-	height:1em;
+
+footer {
+	right: 0em;
+	left: 0em;
+	bottom: 0em;
+	height: 1em;
 }
-footer a, footer p{
-	line-height:1em;
+
+footer a, footer p {
+	line-height: 1em;
 }
-#content, #content1, #content2, #content3, #content4{
-	left:0em;
-	top:6em;
+
+div.content {
+	left: 0em;
+	top: 6em;
 }

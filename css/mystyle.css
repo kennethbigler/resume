@@ -39,7 +39,7 @@ figcaption {
 	font-style: italic;
 }
 
-header{
+header {
 	/*background-image:url(../images/banner-red.png);
 	background-repeat:repeat-x;*/
 	background-color: black;
@@ -56,14 +56,15 @@ header{
 	box-shadow: .0625em .3125em .625em #888;
 }
 
-aside{
+aside {
 	background-color: #7E8AA2; 
 	width: 7em;
 	float: left;
 	height: 100%;
+	text-align: center;
 }
 
-div.main{
+div.main {
 	position:absolute;
 	left:.75em;
 	right:.75em;
@@ -75,7 +76,7 @@ div.main{
 	box-shadow: .0625em .3125em .625em #888;
 }
 
-nav{
+nav {
 	background-color:white;
 	height:3em;
 	position:absolute;
@@ -85,7 +86,7 @@ nav{
 	overflow:visible;
 }
 
-div.navpill{
+div.navpill {
 	cursor: pointer;
 	cursor: hand;
 	float: left;
@@ -105,26 +106,26 @@ div.navpill{
 	-webkit-box-shadow: .0625em .3125em .625em #888;
 	box-shadow: .0625em .3125em .625em #888;
 }
-div.navpill:hover{
+div.navpill:hover {
 	background-color: black;
 }
 
-div.current{
+div.current {
 	background-color: #f90;
 }
 
-figure.banner{
+figure.banner {
 	margin-top:0;
 }
 
-div.border{
+div.border {
 	font-family:verdana;
 	padding:1em;
 	border-radius:.625em;
 	border:.825em solid red;
 }
 
-footer{
+footer {
 	background-color: black;
 	position: absolute;
 	right: .75em;
@@ -137,14 +138,14 @@ footer{
 	-webkit-box-shadow: .0625em .3125em .625em #888;
 	box-shadow: .0625em .3125em .625em #888;
 }
-footer a, footer p{
+footer a, footer p {
 	color:white;
 	text-decoration:none;
 	margin:0em;
 	line-height:2em;
 }
 
-div.content{
+div.content {
 	position: absolute;
 	right: 0em;
 	left: 7em;
@@ -153,23 +154,23 @@ div.content{
 	padding: .625em;
 	background-color: white;
 }
-div.content::-webkit-scrollbar{
+div.content::-webkit-scrollbar {
 	display:none;
 }
 
-div.scrollable{
+div.scrollable {
 	overflow:auto;
 }
 
-p.light{
+p.light {
 	color: #7E8AA2;
 }
 
-.unbold{
+.unbold {
 	font-weight:normal;
 }
 
-img.site{
+img.site {
 	width:100%;
 	display:block;
 	margin:auto;
@@ -181,15 +182,15 @@ img.site{
 	box-shadow: .0625em .3125em .625em #888;
 }
 
-.fall{
+.fall {
 	color: #F90;
 }
 
-.winter{
+.winter {
 	color: #234;
 }
 
-.spring{
+.spring {
 	color: #0F0;
 	font-weight: bold;
 }
@@ -210,22 +211,22 @@ div.highlight {
 	box-shadow: .0625em .3125em .625em #888;
 }
 
-#kidzkamp{
+#kidzkamp {
 	max-width:535px;
 }
-#aboutme{
+#aboutme {
 	max-width:308px;
 }
-#mapquiz{
+#mapquiz {
 	max-width:458px;
 }
-#main_photo{
+#main_photo {
 	width:100%;
 	max-width:541px;
 	display:block;
 	margin:auto;
 }
-img.corp_logo{
+img.corp_logo {
 	float:right;
 	max-width:150px;
 	padding-top: .625em;
