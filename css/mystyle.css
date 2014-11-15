@@ -1,28 +1,44 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-	background-color:white;
+body {
+	background-color: white;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-h1{
-	text-align:center;
+
+h1 {
+	text-align: center;
 }
-input{
-	cursor:pointer;
-	cursor:hand;
+
+input {
+	cursor: pointer;
+	cursor: hand;
 }
-label{
-	cursor:pointer;
-	cursor:hand;
+
+label {
+	cursor: pointer;
+	cursor: hand;
 }
-button{
-	cursor:pointer;
-	cursor:hand;
+
+button {
+	cursor: pointer;
+	cursor: hand;
 }
-dt{
-	margin-top:1em;
+
+dt {
+	margin-top: 1em;
 }
+
+h1, h2, h3 {
+	text-shadow: 1px 1px #888;
+}
+
+figcaption {
+	text-align: center;
+	color: #999;
+	font-style: italic;
+}
+
 header{
 	/*background-image:url(../images/banner-red.png);
 	background-repeat:repeat-x;*/
@@ -39,15 +55,14 @@ header{
 	-webkit-box-shadow: .0625em .3125em .625em #888;
 	box-shadow: .0625em .3125em .625em #888;
 }
-div.scrollable{
-	overflow:auto;
-}
+
 aside{
-	background-color: #9bd; 
+	background-color: #7E8AA2; 
 	width: 7em;
 	float: left;
 	height: 100%;
 }
+
 div.main{
 	position:absolute;
 	left:.75em;
@@ -59,6 +74,7 @@ div.main{
 	-webkit-box-shadow: .0625em .3125em .625em #888;
 	box-shadow: .0625em .3125em .625em #888;
 }
+
 nav{
 	background-color:white;
 	height:3em;
@@ -68,12 +84,13 @@ nav{
 	right:0em;
 	overflow:visible;
 }
+
 div.navpill{
 	cursor: pointer;
 	cursor: hand;
 	float: left;
 	max-width: 7em;
-	background-color: #346;
+	background-color: #234;
 	text-align: center;
 	color: white;
 	line-height: 2em;
@@ -91,18 +108,22 @@ div.navpill{
 div.navpill:hover{
 	background-color: black;
 }
+
 div.current{
-	background-color: #f60;
+	background-color: #f90;
 }
+
 figure.banner{
 	margin-top:0;
 }
+
 div.border{
 	font-family:verdana;
 	padding:1em;
 	border-radius:.625em;
 	border:.825em solid red;
 }
+
 footer{
 	background-color: black;
 	position: absolute;
@@ -122,6 +143,7 @@ footer a, footer p{
 	margin:0em;
 	line-height:2em;
 }
+
 div.content{
 	position: absolute;
 	right: 0em;
@@ -131,12 +153,22 @@ div.content{
 	padding: .625em;
 	background-color: white;
 }
-p.light{
-	color:#c7c7c7;
+div.content::-webkit-scrollbar{
+	display:none;
 }
+
+div.scrollable{
+	overflow:auto;
+}
+
+p.light{
+	color: #7E8AA2;
+}
+
 .unbold{
 	font-weight:normal;
 }
+
 img.site{
 	width:100%;
 	display:block;
@@ -148,6 +180,36 @@ img.site{
 	-webkit-box-shadow: .0625em .3125em .625em #888;
 	box-shadow: .0625em .3125em .625em #888;
 }
+
+.fall{
+	color: #F90;
+}
+
+.winter{
+	color: #234;
+}
+
+.spring{
+	color: #0F0;
+	font-weight: bold;
+}
+
+div.highlight {
+	background-color: #EBEBEB;
+	padding-left: .625em;
+	padding-right: .625em;
+	padding-top: .001em;
+	padding-bottom: .001em;
+	border-radius: .625em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: .625em;
+	margin-right: .625em;
+	-moz-box-shadow: .0625em .3125em .625em #888;
+	-webkit-box-shadow: .0625em .3125em .625em #888;
+	box-shadow: .0625em .3125em .625em #888;
+}
+
 #kidzkamp{
 	max-width:535px;
 }
@@ -156,9 +218,6 @@ img.site{
 }
 #mapquiz{
 	max-width:458px;
-}
-div.content::-webkit-scrollbar{
-	display:none;
 }
 #main_photo{
 	width:100%;
@@ -169,39 +228,14 @@ div.content::-webkit-scrollbar{
 img.corp_logo{
 	float:right;
 	max-width:150px;
+	padding-top: .625em;
 }
-figcaption{
-	text-align: center;
-	color:#999;
-	font-style:italic;
-}
-.fall{
-	color: #F60;
-}
-.winter{
-	color: #346;
-}
-.spring{
-	color: #0F0;
-	font-weight: bold;
-}
-div.highlight {
-	background-color: #ebebeb;
-	padding-left: .625em;
-	padding-right: .625em;
-	padding-top: .001em;
-	padding-bottom: .001em;
-	border-radius: .625em;
-	margin: 1em;
-	-moz-box-shadow: .0625em .3125em .625em #888;
-	-webkit-box-shadow: .0625em .3125em .625em #888;
-	box-shadow: .0625em .3125em .625em #888;
-}
-
 
 /* Color Palet:
-	#DEF - light blue
-	#F60 - orange
-	#346 - dark blue
-
+	#EBEBEB - light grey
+	#7E8AA2 - light blue
+	#234 - dark blue
+	#F90 - orange
+	#000 - black
+	#FFF - white
 */
