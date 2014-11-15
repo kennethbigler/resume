@@ -176,21 +176,32 @@ figcaption{
 	font-style:italic;
 }
 .fall{
-	color:#F90;
+	color: #F60;
 }
 .winter{
-	color:#3CF;
+	color: #346;
 }
 .spring{
-	color:#0F0;
-	font-weight:bold;
+	color: #0F0;
+	font-weight: bold;
 }
 div.highlight {
-	background-color: #DEF;
-	padding: .625em;
+	background-color: #ebebeb;
+	padding-left: .625em;
+	padding-right: .625em;
+	padding-top: .001em;
+	padding-bottom: .001em;
 	border-radius: .625em;
 	margin: 1em;
 	-moz-box-shadow: .0625em .3125em .625em #888;
 	-webkit-box-shadow: .0625em .3125em .625em #888;
 	box-shadow: .0625em .3125em .625em #888;
 }
+
+
+/* Color Palet:
+	#DEF - light blue
+	#F60 - orange
+	#346 - dark blue
+
+*/
