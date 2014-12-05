@@ -211,24 +211,36 @@ div.highlight {
 	box-shadow: .0625em .3125em .625em #888;
 }
 
+#groupright {
+	max-width: 572px;
+}
+#scheduler {
+	max-width: 494px;
+}
+#hqa {
+	max-width: 300px;
+}
+#michelle {
+	max-width: 526px;
+}
 #kidzkamp {
-	max-width:535px;
+	max-width: 535px;
 }
 #aboutme {
-	max-width:308px;
+	max-width: 308px;
 }
 #mapquiz {
-	max-width:458px;
+	max-width: 458px;
 }
 #main_photo {
-	width:100%;
-	max-width:541px;
-	display:block;
-	margin:auto;
+	width: 100%;
+	max-width: 541px;
+	display: block;
+	margin: auto;
 }
 img.corp_logo {
-	float:right;
-	max-width:150px;
+	float: right;
+	max-width: 150px;
 	padding-top: .625em;
 }
 
