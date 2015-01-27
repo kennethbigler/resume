@@ -29,7 +29,7 @@ dt {
 	margin-top: 1em;
 }
 
-h1, h2, h3 {
+h1, h2 {
 	text-shadow: 1px 1px #888;
 }
 
@@ -201,7 +201,8 @@ div.highlight {
 	padding-right: .625em;
 	padding-top: .001em;
 	padding-bottom: .001em;
-	border-radius: .625em;
+	border: .125em solid #234;
+	border-radius: .125em;
 	margin-top: 1em;
 	margin-bottom: 1em;
 	margin-left: .625em;
